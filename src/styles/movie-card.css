@@ -1,0 +1,33 @@
+.movie-card {
+  margin: 2rem 2rem;
+  height: 23rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  transition: ease-in-out 0.4s;
+}
+.movie-card:hover {
+  transform: scale(1.225);
+  transition: ease-in-out 0.4s;
+  background-color: rgba(128, 114, 114, 0.664);
+  border-radius: 1rem;
+}
+.image {
+  height: 15rem;
+  width: 10rem;
+  margin: 1rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.movie-title {
+  font-weight: bold;
+  margin: 0.4rem 0;
+}
+
+.movie-year {
+  margin: 0.4rem 0;
+}

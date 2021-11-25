@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.movie-logo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-left: -4rem;
+  transition: ease-in-out 1s;
+}
+.logo:hover > .movie-logo {
+  transform: scale(1.02) rotateX(360deg) translateX(5rem);
+  transition: ease-in-out 1s;
+}
+.logo:hover > .logo-text {
+  opacity: 1;
+  transition: ease-in-out 1.2s;
+}
+.logo-text {
+  display: inline;
+  opacity: 0;
+  transition: ease-in-out 1s;
+  font-size: large;
+  font-weight: bold;
+}
+.search-bar {
+  outline: none;
+  border: none;
+  background: none;
+
+  background-color: #1b2634;
+  color: #eee;
+}
