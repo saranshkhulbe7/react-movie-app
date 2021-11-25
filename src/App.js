@@ -2,7 +2,7 @@ import "./App.css";
 import axios from "axios";
 import { NavBar, MovieList } from "./components";
 import { useState } from "react";
-const API_BASE_URL = "http://www.omdbapi.com";
+const API_BASE_URL = "https://www.omdbapi.com";
 const API_KEY = "7880735c";
 
 function App() {
